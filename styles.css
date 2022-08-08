@@ -162,6 +162,8 @@ body {
 	letter-spacing: 0.02em;
 	color: #757575;
 	text-decoration: none;
+	display: flex;
+	align-items: center;
 }
 
 .nav-cont:hover,
@@ -458,11 +460,12 @@ height: 20px;
 
 /*--5_Постоянные клиенты--*/
 
-.head-client {
+.cliens-title {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
+	letter-spacing: 0.03em;
 	color: var(--brand-color-mame);
 	margin-bottom: 50px;
 }
@@ -493,8 +496,8 @@ height: 20px;
 
 
 .logo-svg {
-  width: 106px;
-  height: 60px;
+	width: 106px;
+	height: 60px;
 }
 
 
@@ -570,7 +573,9 @@ height: 20px;
 }
 
 
-/*--portfolio--*/
+/*--Page-Portfolio--*/
+/*--Button-Portfolio--*/
+
 .filtr-buttn {
 	display: flex;
 	list-style: none;
@@ -628,9 +633,14 @@ height: 20px;
 	background: var(--color-fokus-buutn);
 }
 
+/*--Content-Portfolio--*/
+
+
+
 .portfolio {
 	display: flex;
 	flex-wrap: wrap;
+
 	list-style: none;
 	padding: 0px;
 	margin: 0px;
@@ -639,13 +649,21 @@ height: 20px;
 
 .portfolio-cart {
 	width: 370px;
+	list-style: none;
 	flex-basis: calc((100% - 60px) / 3);
 	margin-right: 30px;
 	margin-bottom: 30px;
 }
 
-.img-card-two {
-	display: block;
+.cart-link {
+  display: block;
+  text-decoration: none;
+}
+
+.cart-link:hover {
+ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+  0px 4px 4px rgba(0, 0, 0, 0.06), 
+  1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .item-div {
@@ -726,4 +744,8 @@ width: 20px;
 height: 20px;
 }
 
-/* outline: 2px solid var(--outline-stiles-control); */
+/* outline: 2px solid var(--outline-stiles-control); *.
+непотрібно
+.img-card-two {
+	display: block;
+}
