@@ -17,8 +17,9 @@ html {
 }
 
 *,
-*::after,
-*::before {
+*::before,
+*::after
+ {
 	box-sizing: inherit;
 }
 
@@ -463,7 +464,7 @@ height: 20px;
 .cliens-title {
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 1.17;
+	line-height: 42px;
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--brand-color-mame);
@@ -486,6 +487,7 @@ height: 20px;
   fill: #AFB1B8;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
 
 .client-logo:hover,
@@ -498,6 +500,7 @@ height: 20px;
 .logo-svg {
 	width: 106px;
 	height: 60px;
+	padding: 0;
 }
 
 
